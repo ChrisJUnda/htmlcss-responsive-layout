@@ -3,3 +3,79 @@
     padding: 0;
     box-sizing: border-box;
 }
+/*Inizio Header*/
+header{
+
+}
+
+header .container > * {
+    padding: 20px;
+    background-color: #B5DDFF;
+
+}
+
+/*Fine Header*/
+
+/*Inizio Classi*/
+
+.container{
+    margin: 0 auto;
+}
+/*Fine Classi*/
+
+
+/*Inizio Utilities*/
+
+.bg-azul {
+    background-color: #0084FD;
+}
+
+.bg-azzurro{
+    background-color: #B5DDFF;
+}
+
+.bg-lilla{
+    background-color: #9792E4;
+}
+
+.bg-lightbrown{
+    background-color: #FDC15F;
+}
+.bg-black{
+    background-color: #333333;
+}
+
+.px-2{
+    padding: 0 2rem;
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.items-center{
+    align-items: center;
+}
+
+/*Fine Utilities*/
+
+/*Inizio Responsive*/
+
+@media screen and (min-width:768px) {
+    .container{
+        max-width: 720px;
+    }
+
+}
+
+@media screen and (min-width:992px) {
+    .container{
+        max-width: 960px;
+    }
+    
+}
+/*Fine Responsive*/

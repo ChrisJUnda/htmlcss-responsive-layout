@@ -40,7 +40,9 @@ main section#jumbo .col {
 
 
 /*Inizio Utilities*/
-
+.height-100{
+    height: 100px;
+}
 .height-200{
     height: 200px;
 }
@@ -133,16 +135,31 @@ main section#jumbo .col {
     #jumbo .col.col-main{
         width: calc((100% / 3) * 2 - 30px);
     }
+    /*Fine Jumbo*/
 
+    /*Inizio Benefits*/
     #benefits .row{
         display: flex;
         flex-wrap: wrap;
     }
     #benefits .col{
         width: calc(100% / 2 );
-    
+    }
+    /*Fine Benefits*/
 
-}
+    /*Inizio About US*/
+    #about .row{
+        display: flex;
+        flex-direction: row;
+    }
+
+    #about .col{
+        width: calc(100% / 2);
+    }
+
+    /*Fine About US*/
+
+
 }
 
 @media screen and (min-width:992px) {
@@ -168,6 +185,27 @@ main section#jumbo .col {
     }
     #benefits .col{
         width: calc(100% / 3 );
+    }
+
+    #about .row{
+        display: flex;
+        flex-direction: row;
+    }
+
+    #about .col.col-about-left{
+        width: calc((100% / 3) * 2 );
+    }
+
+    #about .col.col-about-right{
+        width: calc(100% / 3);
+    }
+
+    #get-started .container{
+        max-width: 480px;
+    }
+
+    #foot .container{
+        max-width: 480px;
     }
 
 

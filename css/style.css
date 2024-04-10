@@ -34,6 +34,8 @@ main section#jumbo .col {
     background-color: #B5DDFF;
     border: 1px solid black
 }
+
+
 /*Fine Classi*/
 
 
@@ -132,6 +134,15 @@ main section#jumbo .col {
         width: calc((100% / 3) * 2 - 30px);
     }
 
+    #benefits .row{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #benefits .col{
+        width: calc(100% / 2 );
+    
+
+}
 }
 
 @media screen and (min-width:992px) {
@@ -150,6 +161,15 @@ main section#jumbo .col {
     #planning .col.col-section2{
         margin-right: 10px;
     }
+
+    #benefits .row{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #benefits .col{
+        width: calc(100% / 3 );
+    }
+
 
     
 }
